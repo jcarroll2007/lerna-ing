@@ -1,0 +1,15 @@
+{
+  "name": "lerna-ing",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^2.10.0"
+  },
+  "dependencies": {
+    "react-scripts": "2.0.0-next.b2fd8db8"
+  }
+}
